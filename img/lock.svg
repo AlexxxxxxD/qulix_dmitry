@@ -1,0 +1,15 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d0d0d5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle id="bg" class="cls-1" cx="10" cy="10" r="10"/>
+  <path id="lock" class="cls-2" d="M2,10A2,2,0,0,1,0,8V5A1,1,0,0,1,1,4H7A1,1,0,0,1,8,5V8a2,2,0,0,1-2,2ZM3,7A1,1,0,1,0,4,6,1,1,0,0,0,3,7ZM6,3A1.831,1.831,0,0,0,4,1,1.817,1.817,0,0,0,2,3V4L1.007,4V2.4A2.744,2.744,0,0,1,4,0,2.744,2.744,0,0,1,6.991,2.4V4L6,4Z" transform="translate(6 4.999)"/>
+</svg>

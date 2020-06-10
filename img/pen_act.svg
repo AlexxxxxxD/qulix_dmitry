@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ff4b4b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="dashboard_icon_edit_active" transform="translate(-232 -287)">
+    <rect id="placeholder" class="cls-1" width="24" height="24" transform="translate(232 287)"/>
+    <path id="edit" class="cls-2" d="M14.4,4.176l-.78.782-3.6-3.61L10.8.566a2.034,2.034,0,0,1,2.882,0l.721.722A2.045,2.045,0,0,1,14.4,4.176ZM5.036,13.564.712,15.009l-.721-.722L1.433,9.954,9.356,2.013l3.6,3.61ZM9.179,4.123,4.133,9.177a.477.477,0,0,0,.674.676L9.853,4.8a.477.477,0,0,0-.674-.676Z" transform="translate(234.009 293.033)"/>
+  </g>
+</svg>
