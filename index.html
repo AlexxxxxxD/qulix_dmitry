@@ -10,17 +10,29 @@
 </head>
 
 <body>
+
 <section class="products">
 
     <h1 class="caption">Продукты</h1>
 
+    <!--    уточняющие классы не несут смысловую нагрузку, потому как уточнять нечего.-->
+    <!--    классы name, number, etc принадлежат сущности card.-->
+    <!--    Класс состояния lock должен быть частью состояния, дабы стилизовать еще и текст в зависимости-->
+    <!--    от статуса, у тебя он отдельно расположен.-->
     <div class="card">
-        <div class="name-card">Зарплатная карта <span class="pen-icon"></span></div>
-        <div class="number-card">6001 84** **** 3459</div>
-        <div class="status-card"><span class="lock"></span>Заблокирована</div>
+        <div class="name">Зарплатная карта <span class="pen-icon"></span></div>
+        <div class="number">6001 84** **** 3459</div>
+        <div class="status lock">Заблокирована</div>
         <div class="date">01/21</div>
-        <div class="balance">32 490<span class="coins">,54 ₽</span> <span class="mc-icon"></span></div>
+        <div class="balance">
+            <div class="sum">
+                <span class="integer">32 490</span><span class="fractional">,54</span>
+            </div>
+            <span class="currency">₽</span>
+        </div>
+        <span class="icon-mastercard"></span>
     </div>
+
     <div class="card">
         <div class="name-card">Валютная карта <span class="pen-icon"></span></div>
         <div class="number-card">4561 21** **** 0012</div>
@@ -28,20 +40,23 @@
         <div class="date">08/22</div>
         <div class="balance">772<span class="coins">,00 $</span> <span class="visa-icon"></span></div>
     </div>
-    <div class="contributions">
+
+    <div class="deposit">
         <div class="name-service">Вклад «Удобный» <span class="pen-icon"></span></div>
         <div class="total-money">Остаток вклада</div>
         <div class="money">783 531</span><span class="cent">,50 ₽</span></div>
         <div class="accrued-interest">Начисленные проценты</div>
         <div class="interest">16 352<span class="coins">,18 ₽</span></div>
     </div>
-    <div class="credits">
+
+    <div class="loan">
         <div class="name-service">Автокредит <span class="pen-icon"></span></div>
         <div class="have-pay">Осталось оплатить</div>
         <div class="left-pay">300 000<span class="cent"> ₽</span></div>
         <div class="date-pay">Платёж 25.02.2018</div>
         <div class="pay">25 321<span class="coins">,50 ₽</span></div>
     </div>
+
 </section>
 
 </body>
