@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="30" viewBox="0 0 50 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="path10273" d="M1830.681-497.088c-.028,2.229,2,3.473,3.536,4.212,1.573.759,2.1,1.245,2.1,1.924-.012,1.039-1.255,1.5-2.419,1.515a8.5,8.5,0,0,1-4.148-.977l-.731,3.391a12.263,12.263,0,0,0,4.492.821c4.243,0,7.019-2.076,7.034-5.294.017-4.084-5.7-4.31-5.662-6.136.014-.553.547-1.144,1.715-1.294a7.667,7.667,0,0,1,3.983.692l.71-3.281a10.916,10.916,0,0,0-3.781-.687c-3.994,0-6.8,2.1-6.825,5.115m17.43-4.832a1.842,1.842,0,0,0-1.719,1.135l-6.061,14.341h4.24l.844-2.311h5.181l.49,2.311h3.737l-3.261-15.476h-3.45m.593,4.181,1.224,5.811h-3.351l2.128-5.811m-23.164-4.181-3.342,15.476h4.04l3.341-15.476h-4.039m-5.977,0-4.205,10.534-1.7-8.957a1.879,1.879,0,0,0-1.863-1.577h-6.875l-.1.449a16.925,16.925,0,0,1,3.986,1.317,1.7,1.7,0,0,1,.96,1.36l3.222,12.35h4.27l6.546-15.476h-4.243" transform="translate(-1804.822 501.395)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.373" x2="0.008" y2="0.373" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#222357"/>
+      <stop offset="1" stop-color="#254aa5"/>
+    </linearGradient>
+  </defs>
+  <g id="ic-visa" transform="translate(0.055 8)">
+    <rect id="placeholder" class="cls-1" width="50" height="30" transform="translate(-0.055 -8)"/>
+    <g id="layer1" transform="translate(-0.055 -0.192)">
+      <g id="g10267">
+        <g id="g10269" class="cls-2" transform="translate(0 0)">
+          <g id="g10275" transform="translate(-5.236 -16.232)">
+            <path id="path10283" class="cls-3" d="M0-162.542,49.265-180.7l11.208,30.466L11.208-132.076" transform="translate(0 180.705)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg id="ic-mc" xmlns="http://www.w3.org/2000/svg" width="50" height="30" viewBox="0 0 50 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #e54800;
+      }
+
+      .cls-3 {
+        fill: #d90010;
+      }
+
+      .cls-4 {
+        fill: #f78b00;
+      }
+    </style>
+  </defs>
+  <rect id="placeholder" class="cls-1" width="50" height="30"/>
+  <g id="mc" transform="translate(0 0)">
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" class="cls-2" cx="6.859" cy="11.761" rx="6.859" ry="11.761" transform="translate(18.141 3.239)"/>
+    <path id="Path_171" data-name="Path 171" class="cls-3" d="M54.609,141.055a14.821,14.821,0,0,1,5.859-11.761,15.639,15.639,0,0,0-9.571-3.239,15.006,15.006,0,1,0,0,30,15.637,15.637,0,0,0,9.571-3.239A14.821,14.821,0,0,1,54.609,141.055Z" transform="translate(-35.468 -126.055)"/>
+    <path id="Path_172" data-name="Path 172" class="cls-4" d="M70.038,126.055a15.638,15.638,0,0,0-9.57,3.239,14.734,14.734,0,0,1,0,23.522,15.636,15.636,0,0,0,9.57,3.239,15.006,15.006,0,1,0,0-30Z" transform="translate(-35.468 -126.055)"/>
+  </g>
+</svg>
