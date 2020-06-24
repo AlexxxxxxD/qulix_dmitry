@@ -1,12 +1,11 @@
 h1 {
-  font-family: RobotoLight;
+  font-family: "RobotoLight", sans-serif;
+  font-weight: normal;
   font-size: 30px;
-  margin-left: 40px;
-  margin: 20px;
-  padding-left: 10px;
+  margin: 22px 0px 22px 20px;
 }
 
-div.card {
+.card {
   font-family: "RobotoRegular", sans-serif;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -17,12 +16,16 @@ div.card {
   display: inline-block;
   width: 320px;
   height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
-  -moz-box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
+  margin: 0px 10px 10px 10px;
   box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
+}
+
+.card > div {
+  display: inline-flex;
+}
+
+.card > div:last-child {
+  margin-right: 0;
 }
 
 .icon-lock {
@@ -30,29 +33,25 @@ div.card {
   width: 20px;
   height: 20px;
   display: inline-block;
-  margin-right: 3px;
+  margin-right: 10px;
 }
 
 .icon-mastercard {
-  position: relative;
   float: right;
   width: 50px;
   height: 30px;
   background: url("../img/icon-mastercard.svg");
   background-repeat: no-repeat;
-  top: 50px;
-  left: 20px;
+  margin: 20px 20px 0px 0px;
 }
 
 .icon-visa {
-  position: relative;
   float: right;
   width: 50px;
   height: 30px;
   background: url("../img/icon-visa.svg");
   background-repeat: no-repeat;
-  top: 50px;
-  left: 20px;
+  margin: 20px 20px 0px 0px;
 }
 
 .icon-pen {
@@ -61,6 +60,7 @@ div.card {
   background: url("../img/icon-pen.svg");
   display: inline-block;
   background-repeat: no-repeat;
+  margin: 0px 0px 0px 7px;
 }
 
 .icon-not-active {
@@ -68,7 +68,7 @@ div.card {
   height: 20px;
   background: url("../img/icon-not-active.svg");
   display: inline-block;
-  margin-right: 3px;
+  margin-right: 10px;
   background-repeat: no-repeat;
 }
 
@@ -79,28 +79,19 @@ div.card {
 }
 
 .name {
-  display: inline-block;
-  position: relative;
-  left: 23px;
-  top: 0px;
   font-size: 16px;
   color: #a4a4b2;
-  margin-top: 14px;
+  margin: 23px 0px 0px 20px;
 }
 
 .number {
-  display: inline-block;
-  position: relative;
-  left: 20px;
-  top: 17px;
   font-size: 26px;
+  margin: 18px 0px 0px 20px;
 }
 
 .status {
   display: flex;
-  position: relative;
-  left: 20px;
-  top: 33px;
+  margin: 9px 0px 0px 20px;
 }
 
 .lock {
@@ -112,34 +103,41 @@ div.card {
 }
 
 .date {
+  margin: 9px 20px 0px 0px;
   float: right;
-  position: relative;
-  top: 12px;
-  right: 21px;
   font-size: 16px;
   color: #a4a4b2;
 }
 
 .balance {
-  font-family: RobotoMedium, sans-serif;
-  display: -webkit-inline-box;
-  position: relative;
-  left: 20px;
-  top: 50px;
+  margin: 18px 0px 0px 20px;
+  font-family: "RobotoMedium", sans-serif;
   font-size: 26px;
+  display: inline-flex;
 }
 
 .fractional,
 .currency {
-  font-family: RobotoRegular, sans-serif;
+  font-family: "RobotoRegular", sans-serif;
   font-size: 20px;
   color: #a4a4b2;
 }
 span.currency {
-  margin-left: 3px;
+  margin: 4px 0px 0px 3px;
 }
 
-div.deposit {
+.deposit > .balance,
+.loan > .balance {
+  margin: 1px 0px 0px 20px;
+}
+
+.deposit > .name,
+.loan > .name {
+  margin: 23px 0px 23px 20px;
+  display: inline-flex;
+}
+
+.deposit {
   font-family: "RobotoRegular", sans-serif;
   background: rgb(255, 245, 251);
   background: linear-gradient(
@@ -150,38 +148,25 @@ div.deposit {
   display: inline-block;
   width: 320px;
   height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
-  -moz-box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
+  margin: 0px 10px 10px 10px;
   box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
 }
 
 .title {
-  position: relative;
-  left: 20px;
-  top: 28px;
   font-size: 14px;
   color: #a4a4b2;
-}
-
-.title:nth-child(4n) {
-  top: 51px;
-  margin-top: -13.5px;
+  margin: 0px 0px 0px 20px;
 }
 
 .money {
-  font-family: "RobotoRegular";
-  display: -webkit-inline-box;
-  position: relative;
-  left: 20px;
-  top: 24px;
+  font-family: "RobotoRegular", sans-serif;
+  display: inline-flex;
   font-size: 24px;
   color: #000000;
+  margin: -5px 0px 16px 20px;
 }
 
-div.loan {
+.loan {
   font-family: "RobotoRegular", sans-serif;
   background: rgb(255, 245, 251);
   background: linear-gradient(
@@ -192,10 +177,6 @@ div.loan {
   display: inline-block;
   width: 320px;
   height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
-  -moz-box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
+  margin: 0px 10px 10px 10px;
   box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
 }
