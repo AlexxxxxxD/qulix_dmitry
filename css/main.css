@@ -1,4 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  overflow: hidden;
+}
+
+.products {
+  width: 1280px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
 h1 {
+  width: 100vw;
   font-family: "RobotoLight", sans-serif;
   font-weight: normal;
   font-size: 30px;
@@ -179,4 +198,16 @@ span.currency {
   height: 200px;
   margin: 0px 10px 10px 10px;
   box-shadow: 0px 10px 20px 1px rgba(16, 0, 71, 0.07);
+}
+
+@media (max-width: 660px) {
+  .products {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 330px) {
+  .card {
+    width: 300px;
+  }
 }
