@@ -1,2 +1,1 @@
-# qulix_dmitry
-# practical tasks in Qulix
+# Practical tasks (Qulix Systems)
